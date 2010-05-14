@@ -1,0 +1,13 @@
+This is a cheatsheet for common commands, functions, etc I use often.
+
+// search all the contents of a folder and output to a text file. usefull if your forget the location fo a bit fo code in your project.
+grep -r searchstring * > output.txt
+
+
+//most commin git commands
+git init
+git commit -a -m :update description"
+git push origin master
+git pull
+
+//more to come...
