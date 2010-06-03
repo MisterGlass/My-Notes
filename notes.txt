@@ -3,11 +3,19 @@ This is a cheatsheet for common commands, functions, etc I use often.
 // search all the contents of a folder and output to a text file. usefull if your forget the location fo a bit fo code in your project.
 grep -r searchstring * > output.txt
 
-
 //most commin git commands
 git init
-git commit -a -m :update description"
-git push origin master
+git clone url
+git commit -a -m "update description"
+git push (origin master)
 git pull
+git reset --hard
 
-//more to come...
+//common symfony commands
+php lib/vendor/symfony/data/bin/symfony generate:project PROJECT_NAME
+php symfony configure:database "mysql:host=localhost;dbname=dbname" root mYsEcret
+php symfony generate:app frontend
+php symfony doctrine:generate-module --with-show --non-verbose-templates frontend job JobeetJob
+php symfony doctrine:generate-admin backend JobeetJob --module=job
+php symfony doctrine:build --all --and-load
+php symfony cc
