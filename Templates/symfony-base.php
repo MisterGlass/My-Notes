@@ -1,5 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
- "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <!-- Coded by Yair Silbermintz - yair[at]silbermintz.com -->
 <!-- This site was designed to be accessible as possible. If you are experiencing problems using/viewing the site, please email me and I will do my best to address them -->
@@ -8,7 +7,7 @@
     <?php include_metas() ?>
     <title>
         <?php   if (!include_slot('title')){
-			echo sfConfig::get('app_title'));
+			echo sfConfig::get('app_title');
 		}       ?>
     </title>
 
