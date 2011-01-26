@@ -1,5 +1,9 @@
 This is a cheatsheet for common commands, functions, etc I use often.
 
+//Filtering user input (to stop injection and other attacks)
+PHP ships with filters, but the are often insufficient
+Use the OWASP ESAPI http://www.owasp.org/index.php/Category:OWASP_Enterprise_Security_API
+
 // search all the contents of a folder and output to a text file. usefull if your forget the location fo a bit fo code in your project.
 grep -r searchstring * > output.txt
 
