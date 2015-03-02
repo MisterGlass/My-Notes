@@ -1,0 +1,8 @@
+vbell off # Turn off virtual bell
+
+autodetach on # Automatically detach swessions on hangup
+
+caption always "%{= kw}   %{= mw} %-w%{= bw}%n %t%{-}%+w %-= @%H - %LD %d %LM - %C %A %{= kw}   " # add bottom caption bar to screen
+
+altscreen on # stop full screen apps from polluting scrollup buffer
+
