@@ -1,3 +1,5 @@
 [user]
 	name = Yair Silbermintz
 	email = yair@silbermintz.com
+[core]
+	editor = vim
